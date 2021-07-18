@@ -1,0 +1,158 @@
+[
+  {
+    "tagName": "attack",
+    "baseValue": 4
+  },
+  {
+    "tagName": "block",
+    "baseValue": 4
+  },
+  {
+    "tagName": "strike",
+    "baseValue": 2
+  },
+  {
+    "tagName": "vulnerability",
+    "baseValue": 3
+  },
+  {
+    "tagName": "weak",
+    "baseValue": 2
+  },
+  {
+    "tagName": "strength",
+    "baseValue": 4
+  },
+  {
+    "tagName": "dexterity",
+    "baseValue": 4
+  },
+  {
+    "tagName": "focus",
+    "baseValue": 4
+  },
+  {
+    "tagName": "calm",
+    "baseValue": 4
+  },
+  {
+    "tagName": "wrath",
+    "baseValue": 4
+  },
+  {
+    "tagName": "lightningorb",
+    "baseValue": 4
+  },
+  {
+    "tagName": "darknessorb",
+    "baseValue": 2
+  },
+  {
+    "tagName": "plasmaorb",
+    "baseValue": 4
+  },
+  {
+    "tagName": "frostorb",
+    "baseValue": 3
+  },
+  {
+    "tagName": "mark",
+    "baseValue": 1
+  },
+  {
+    "tagName": "mantra",
+    "baseValue": 2
+  },
+  {
+    "tagName": "poison",
+    "baseValue": 4
+  },
+  {
+    "tagName": "lowcost",
+    "baseValue": 3
+  },
+  {
+    "tagName": "highcost",
+    "baseValue": 2
+  },
+  {
+    "tagName": "energy",
+    "baseValue": 5
+  },
+  {
+    "tagName": "draw",
+    "baseValue": 5
+  },
+  {
+    "tagName": "scry",
+    "baseValue": 2
+  },
+  {
+    "tagName": "potion",
+    "baseValue": 4
+  },
+  {
+    "tagName": "discard",
+    "baseValue": 4
+  },
+  {
+    "tagName": "power",
+    "baseValue": 4
+  },
+  {
+    "tagName": "multihit",
+    "baseValue": 4
+  },
+  {
+    "tagName": "hploss",
+    "baseValue": 0
+  },
+  {
+    "tagName": "hpgain",
+    "baseValue": 4
+  },
+  {
+    "tagName": "exhaust",
+    "baseValue": 3
+  },
+  {
+    "tagName": "status",
+    "baseValue": 2
+  },
+  {
+    "tagName": "retain",
+    "baseValue": 3
+  },
+  {
+    "tagName": "skill",
+    "baseValue": 4
+  },
+  {
+    "tagName": "upgrade",
+    "baseValue": 2
+  },
+  {
+    "tagName": "cardgeneration",
+    "baseValue": 3
+  },
+  {
+    "tagName": "attackbuff",
+    "baseValue": 4
+  },
+  {
+    "tagName": "curse",
+    "baseValue": 0
+  },
+  {
+    "tagName": "cardduplication",
+    "baseValue": 4
+  },
+  {
+    "tagName": "mitigation",
+    "baseValue": 4
+  },
+  {
+    "tagName": "energyscaling",
+    "baseValue": 4
+  }
+]

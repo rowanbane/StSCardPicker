@@ -1,0 +1,1613 @@
+[
+   {
+      "tags":[
+         {
+            "tagName":"attackbuff",
+            "value":2.0
+         }
+      ],
+      "relicName":"Akabeko"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"block",
+            "value":2.0
+         }
+      ],
+      "relicName":"Anchor"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":2.0
+         }
+      ],
+      "relicName":"Ancient Tea Set"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":2.0
+         }
+      ],
+      "relicName":"Art of War"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Astrolabe"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"vulnerability",
+            "value":2.0
+         }
+      ],
+      "relicName":"Bag of Marbles"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":3.0
+         }
+      ],
+      "relicName":"Bag of Preparation"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"power",
+            "value":3.0
+         },
+         {
+            "tagName":"hpgain",
+            "value":2.0
+         }
+      ],
+      "relicName":"Bird-Faced Urn"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":6.0
+         }
+      ],
+      "relicName":"Black Blood"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Black Star"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":2.0
+         }
+      ],
+      "relicName":"Blood Vial"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":4.0
+         }
+      ],
+      "relicName":"Bloody Idol"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"curse",
+            "value":2.0
+         },
+         {
+            "tagName":"hploss",
+            "value":1.0
+         },
+         {
+            "tagName":"exhaust",
+            "value":1.0
+         }
+      ],
+      "relicName":"Blue Candle"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Bottled Flame"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Bottled Lightning"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Bottled Tornado"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"strength",
+            "value":4.0
+         }
+      ],
+      "relicName":"Brimstone"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hploss",
+            "value":1.0
+         }
+      ],
+      "relicName":"Bronze Scales"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":4.0
+         }
+      ],
+      "relicName":"Burning Blood"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         }
+      ],
+      "relicName":"Busted Crown"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"block",
+            "value":4.0
+         }
+      ],
+      "relicName":"Calipers"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Calling Bell"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"block",
+            "value":4.0
+         }
+      ],
+      "relicName":"Captain\u0027s Wheel"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Cauldron"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":2.0
+         }
+      ],
+      "relicName":"Centennial Puzzle"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Ceramic Fish"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"vulnerability",
+            "value":4.0
+         }
+      ],
+      "relicName":"Champion Belt"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"exhaust",
+            "value":4.0
+         }
+      ],
+      "relicName":"Charon\u0027s Ashes"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energyscaling",
+            "value":8.0
+         }
+      ],
+      "relicName":"Chemical X"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Circlet"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"block",
+            "value":3.0
+         },
+         {
+            "tagName":"draw",
+            "value":2.0
+         },
+         {
+            "tagName":"retain",
+            "value":3.0
+         }
+      ],
+      "relicName":"Cloak Clasp"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"mitigation",
+            "value":3.0
+         }
+      ],
+      "relicName":"Clockwork Souvenir"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         },
+         {
+            "tagName":"hploss",
+            "value":-3.0
+         },
+         {
+            "tagName":"hpgain",
+            "value":4.0
+         }
+      ],
+      "relicName":"Coffee Dripper"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"lightningorb",
+            "value":4.0
+         }
+      ],
+      "relicName":"Cracked Core"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Cultist Headpiece"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         }
+      ],
+      "relicName":"Cursed Key"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"mantra",
+            "value":3.0
+         }
+      ],
+      "relicName":"Damaru"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Darkstone Periapt"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"focus",
+            "value":4.0
+         }
+      ],
+      "relicName":"Data Disk"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"exhaust",
+            "value":5.0
+         },
+         {
+            "tagName":"cardgeneration",
+            "value":4.0
+         }
+      ],
+      "relicName":"Dead Branch"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Dolly\u0027s Mirror"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Dream Catcher"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"curse",
+            "value":5.0
+         },
+         {
+            "tagName":"strength",
+            "value":3.0
+         }
+      ],
+      "relicName":"Du-Vu Doll"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"dexterity",
+            "value":3.0
+         },
+         {
+            "tagName":"attack",
+            "value":2.0
+         }
+      ],
+      "relicName":"Duality"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         }
+      ],
+      "relicName":"Ectoplasm"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"darknessorb",
+            "value":2.0
+         },
+         {
+            "tagName":"frostorb",
+            "value":2.0
+         },
+         {
+            "tagName":"lightningorb",
+            "value":2.0
+         },
+         {
+            "tagName":"plasmaorb",
+            "value":2.0
+         },
+         {
+            "tagName":"hploss",
+            "value":4.0
+         }
+      ],
+      "relicName":"Emotion Chip"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Empty Cage"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"cardgeneration",
+            "value":3.0
+         },
+         {
+            "tagName":"power",
+            "value":3.0
+         }
+      ],
+      "relicName":"Enchiridion"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":2.0
+         }
+      ],
+      "relicName":"Eternal Feather"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Face of Cleric"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"mitigation",
+            "value":4.0
+         }
+      ],
+      "relicName":"Fossilized Helix"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"frostorb",
+            "value":2.0
+         }
+      ],
+      "relicName":"Frozen Core"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"upgrade",
+            "value":2.0
+         },
+         {
+            "tagName":"power",
+            "value":3.0
+         }
+      ],
+      "relicName":"Frozen Egg"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":3.0
+         }
+      ],
+      "relicName":"Frozen Eye"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         }
+      ],
+      "relicName":"Fusion Hammer"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"discard",
+            "value":4.0
+         },
+         {
+            "tagName":"draw",
+            "value":4.0
+         }
+      ],
+      "relicName":"Gambling Chip"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"mitigation",
+            "value":3.0
+         }
+      ],
+      "relicName":"Ginger"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"strength",
+            "value":5.0
+         }
+      ],
+      "relicName":"Girya"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"darknessorb",
+            "value":2.0
+         },
+         {
+            "tagName":"lightningorb",
+            "value":2.0
+         },
+         {
+            "tagName":"frostorb",
+            "value":2.0
+         },
+         {
+            "tagName":"plasmaorb",
+            "value":2.0
+         }
+      ],
+      "relicName":"Gold-Plated Cables"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"scry",
+            "value":5.0
+         }
+      ],
+      "relicName":"Golden Eye"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Golden Idol (Relic)"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":3.0
+         },
+         {
+            "tagName":"draw",
+            "value":2.0
+         }
+      ],
+      "relicName":"Gremlin Horn"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Gremlin Visage"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"vulnerability",
+            "value":2.0
+         }
+      ],
+      "relicName":"Hand Drill"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":3.0
+         }
+      ],
+      "relicName":"Happy Flower"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":5.0
+         }
+      ],
+      "relicName":"Holy Water"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"block",
+            "value":3.0
+         }
+      ],
+      "relicName":"Horn Cleat"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":4.0
+         },
+         {
+            "tagName":"discard",
+            "value":4.0
+         }
+      ],
+      "relicName":"Hovering Kite"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":5.0
+         },
+         {
+            "tagName":"highcost",
+            "value":3.0
+         },
+         {
+            "tagName":"lowcost",
+            "value":2.0
+         }
+      ],
+      "relicName":"Ice Cream"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"mitigation",
+            "value":4.0
+         }
+      ],
+      "relicName":"Incense Burner"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":1.0
+         },
+         {
+            "tagName":"lowcost",
+            "value":3.0
+         }
+      ],
+      "relicName":"Ink Bottle"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Inserter"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Juzu Bracelet"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"dexterity",
+            "value":3.0
+         },
+         {
+            "tagName":"attack",
+            "value":3.0
+         },
+         {
+            "tagName":"lowcost",
+            "value":3.0
+         }
+      ],
+      "relicName":"Kunai"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":3.0
+         }
+      ],
+      "relicName":"Lantern"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Lee\u0027s Waffle"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"skill",
+            "value":2.0
+         }
+      ],
+      "relicName":"Letter Opener"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":5.0
+         }
+      ],
+      "relicName":"Lizard Tail"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":3.0
+         }
+      ],
+      "relicName":"Magic Flower"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Mango"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         },
+         {
+            "tagName":"status",
+            "value":4.0
+         }
+      ],
+      "relicName":"Mark of Pain"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Mark of the Bloom"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Matryoshka"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Maw Bank"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":2.0
+         }
+      ],
+      "relicName":"Meal Ticket"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":4.0
+         }
+      ],
+      "relicName":"Meat on the Bone"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"status",
+            "value":4.0
+         },
+         {
+            "tagName":"exhaust",
+            "value":2.0
+         }
+      ],
+      "relicName":"Medical Kit"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"scry",
+            "value":1.0
+         }
+      ],
+      "relicName":"Melange"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Membership Card"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Mercury Hourglass"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"upgrade",
+            "value":2.0
+         }
+      ],
+      "relicName":"Molten Egg"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"power",
+            "value":5.0
+         },
+         {
+            "tagName":"highcost",
+            "value":3.0
+         }
+      ],
+      "relicName":"Mummified Hand"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"strength",
+            "value":3.0
+         }
+      ],
+      "relicName":"Mutagenic Strength"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"N\u0027loth\u0027s Gift"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"N\u0027loth\u0027s Hungry Face"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"cardduplication",
+            "value":4.0
+         },
+         {
+            "tagName":"highcost",
+            "value":6.0
+         }
+      ],
+      "relicName":"Necronomicon"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Neow\u0027s Lament"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"cardgeneration",
+            "value":4.0
+         }
+      ],
+      "relicName":"Nilry\u0027s Codex"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"lowcost",
+            "value":2.0
+         }
+      ],
+      "relicName":"Ninja Scroll"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"plasmaorb",
+            "value":5.0
+         }
+      ],
+      "relicName":"Nuclear Battery"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":1.0
+         }
+      ],
+      "relicName":"Nunchaku"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"mitigation",
+            "value":2.0
+         }
+      ],
+      "relicName":"Odd Mushroom"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"dexterity",
+            "value":4.0
+         }
+      ],
+      "relicName":"Oddly Smooth Stone"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Old Coin"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Omamori"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"power",
+            "value":3.0
+         },
+         {
+            "tagName":"attack",
+            "value":3.0
+         },
+         {
+            "tagName":"skill",
+            "value":3.0
+         }
+      ],
+      "relicName":"Orange Pellets"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"block",
+            "value":3.0
+         }
+      ],
+      "relicName":"Orichalcum"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"attack",
+            "value":1.0
+         }
+      ],
+      "relicName":"Ornamental Fan"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Orrery"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Pandora\u0027s Box"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":3.0
+         }
+      ],
+      "relicName":"Pantograph"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"weak",
+            "value":5.0
+         }
+      ],
+      "relicName":"Paper Krane"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"vulnerability",
+            "value":5.0
+         }
+      ],
+      "relicName":"Paper Phrog"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Peace Pipe"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Pear"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"attackbuff",
+            "value":2.0
+         }
+      ],
+      "relicName":"Pen Nib"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         }
+      ],
+      "relicName":"Philosopher\u0027s Stone"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":2.0
+         }
+      ],
+      "relicName":"Pocketwatch"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"potion",
+            "value":2.0
+         }
+      ],
+      "relicName":"Potion Belt"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Prayer Wheel"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Preserved Insect"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Prismatic Shard"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":2.0
+         }
+      ],
+      "relicName":"Pure Water"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Question Card"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"weak",
+            "value":3.0
+         }
+      ],
+      "relicName":"Red Mask"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"strength",
+            "value":3.0
+         }
+      ],
+      "relicName":"Red Skull"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hpgain",
+            "value":2.0
+         }
+      ],
+      "relicName":"Regal Pillow"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Relics"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":4.0
+         }
+      ],
+      "relicName":"Ring of the Serpent"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":2.0
+         }
+      ],
+      "relicName":"Ring of the Snake"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Runic Capacitor"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":5.0
+         }
+      ],
+      "relicName":"Runic Cube"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         }
+      ],
+      "relicName":"Runic Dome"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":4.0
+         }
+      ],
+      "relicName":"Runic Pyramid"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"potion",
+            "value":6.0
+         }
+      ],
+      "relicName":"Sacred Bark"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"hploss",
+            "value":3.0
+         }
+      ],
+      "relicName":"Self-Forming Clay"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Shovel"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"strength",
+            "value":3.0
+         }
+      ],
+      "relicName":"Shuriken"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Singing Bowl"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":4.0
+         }
+      ],
+      "relicName":"Slaver\u0027s Collar"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"strength",
+            "value":4.0
+         }
+      ],
+      "relicName":"Sling of Courage"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Smiling Mask"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":5.0
+         },
+         {
+            "tagName":"highcost",
+            "value":6.0
+         }
+      ],
+      "relicName":"Snecko Eye"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"poison",
+            "value":4.0
+         }
+      ],
+      "relicName":"Snecko Skull"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         }
+      ],
+      "relicName":"Sozu"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Spirit Poop"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Ssserpent Head"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Stone Calendar"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"exhaust",
+            "value":4.0
+         }
+      ],
+      "relicName":"Strange Spoon"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Strawberry"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"strike",
+            "value":5.0
+         }
+      ],
+      "relicName":"Strike Dummy"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":1.0
+         }
+      ],
+      "relicName":"Sundial"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"darknessorb",
+            "value":3.0
+         }
+      ],
+      "relicName":"Symbiotic Virus"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"calm",
+            "value":4.0
+         }
+      ],
+      "relicName":"Teardrop Locket"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"block",
+            "value":2.0
+         }
+      ],
+      "relicName":"The Abacus"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"attackbuff",
+            "value":1.0
+         },
+         {
+            "tagName":"multihit",
+            "value":1.0
+         }
+      ],
+      "relicName":"The Boot"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"The Courier"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"poison",
+            "value":4.0
+         }
+      ],
+      "relicName":"The Specimen"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"block",
+            "value":4.0
+         }
+      ],
+      "relicName":"Thread and Needle"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"discard",
+            "value":3.0
+         }
+      ],
+      "relicName":"Tingsha"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Tiny Chest"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Tiny House"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Toolbox"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"mitigation",
+            "value":3.0
+         }
+      ],
+      "relicName":"Torii"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"discard",
+            "value":3.0
+         },
+         {
+            "tagName":"block",
+            "value":3.0
+         }
+      ],
+      "relicName":"Tough Bandages"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Toxic Egg"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"potion",
+            "value":1.0
+         },
+         {
+            "tagName":"hpgain",
+            "value":1.0
+         }
+      ],
+      "relicName":"Toy Ornithopter"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"mitigation",
+            "value":3.0
+         }
+      ],
+      "relicName":"Tungsten Rod"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Turnip"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"poison",
+            "value":2.0
+         }
+      ],
+      "relicName":"Twisted Funnel"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"draw",
+            "value":3.0
+         },
+         {
+            "tagName":"lowcost",
+            "value":2.0
+         }
+      ],
+      "relicName":"Unceasing Top"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"strength",
+            "value":4.0
+         }
+      ],
+      "relicName":"Vajra"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"energy",
+            "value":6.0
+         },
+         {
+            "tagName":"highcost",
+            "value":2.0
+         }
+      ],
+      "relicName":"Velvet Choker"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"calm",
+            "value":3.0
+         }
+      ],
+      "relicName":"Violet Lotus"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"upgrade",
+            "value":2.0
+         }
+      ],
+      "relicName":"War Paint"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"upgrade",
+            "value":3.0
+         }
+      ],
+      "relicName":"Warped Tongs"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"upgrade",
+            "value":2.0
+         }
+      ],
+      "relicName":"Whetstone"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"potion",
+            "value":3.0
+         }
+      ],
+      "relicName":"White Beast Statue"
+   },
+   {
+      "tags":[
+         
+      ],
+      "relicName":"Wing Boots"
+   },
+   {
+      "tags":[
+         {
+            "tagName":"lowcost",
+            "value":3.0
+         }
+      ],
+      "relicName":"Wrist Blade"
+   }
+]
