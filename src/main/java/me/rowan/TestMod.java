@@ -142,7 +142,7 @@ public class TestMod implements PostInitializeSubscriber {
             for (AbstractCard c : __instance.rewardGroup) {
                 FontHelper.renderSmartText(sb,
                         FontHelper.topPanelAmountFont,
-                        cardRatingMap.get(c.name).toString(),
+                        "score: " + cardRatingMap.get(c.name).toString(),
                         c.hb.x,
                         c.hb.y,
                         Color.WHITE);
@@ -212,17 +212,22 @@ public class TestMod implements PostInitializeSubscriber {
 
     public static float calculateCardValue(String cardName) {
 
+        System.out.println(cardName);
+
+
         OutputCardJson card = cardJsonHashMap.get(cardName);
 
         //Obtain base value
         float cardScore = card.getBaseScore();
 
+
         //obtain act modifier
-        float actModifier = card.getActModifer()[AbstractDungeon.actNum];
+        float actModifier = card.getActModifer()[AbstractDungeon.actNum - 1];
 
         //Scale it by the card synergies present
         List<tagModiferObject> cardSynergies = card.getSynergyModifer();
         if (actModifier < 0) {
+
 
             float amountToDeduct = 0;
             for (tagModiferObject tag : cardSynergies
@@ -231,6 +236,7 @@ public class TestMod implements PostInitializeSubscriber {
                     amountToDeduct = amountToDeduct + (tag.value * actModifier * tagsPresent.get(tag.tagName));
                 }
             }
+
 
             actModifier = actModifier - amountToDeduct;
             if (actModifier > 0) {
@@ -244,6 +250,7 @@ public class TestMod implements PostInitializeSubscriber {
         ) {
             if (tagListAffecting.containsKey(tagName)) {
                 cardScore = cardScore + tagListAffecting.get(tagName);
+
             }
         }
 
@@ -279,8 +286,8 @@ public class TestMod implements PostInitializeSubscriber {
             for (AbstractCard card : colorlessCards
             ) {
 
-//                cardRatingMap.put(card.name, calculateCardValue(formatCardName(card.name)));
-                cardRatingMap.put(card.name, 0f);
+                cardRatingMap.put(card.name, calculateCardValue(formatCardName(card.name)));
+//                cardRatingMap.put(card.name, 0f);
 
             }
 
@@ -302,7 +309,7 @@ public class TestMod implements PostInitializeSubscriber {
 
         private static void renderGridSelectPrediction(SpriteBatch sb, AbstractCard card) {
 
-                String cardRating =  cardRatingMap.get(card.name).toString();
+                String cardRating = "score: " + cardRatingMap.get(card.name).toString();
 
             sb.setColor(Color.WHITE);
             FontHelper.renderSmartText(sb,

@@ -1,555 +1,563 @@
 [
   {
-    "cardName": "Corruption",
-    "baseScore": 130,
-    "tagsProvided": [
+    "cardName":"Corruption",
+    "baseScore":130.0,
+    "tagsProvided":[
       "power",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "skill"
     ],
-    "actModifer": [
-      -20,
-      -40,
-      -50,
-      -70
+    "actModifer":[
+      -20.0,
+      -40.0,
+      -50.0,
+      -70.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "skill",
-        "value": 0.08
+        "tagName":"skill",
+        "value":0.08
       }
     ],
-    "oneOfRule": 25,
-    "oneOfModifier": 0.65
+    "oneOfRule":25.0,
+    "oneOfModifier":0.65
   },
   {
-    "cardName": "Entrench",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Entrench",
+    "baseScore":75.0,
+    "tagsProvided":[
       "skill",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "block"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -15.0,
+      -25.0,
+      -25.0,
+      -25.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "block",
-        "value": 0.08
+        "tagName":"block",
+        "value":0.08
       }
     ],
-    "oneOfRule": 20,
-    "oneOfModifier": 0.3
+    "oneOfRule":20.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Reaper",
-    "baseScore": 105,
-    "tagsProvided": [
+    "cardName":"Reaper",
+    "baseScore":95.0,
+    "tagsProvided":[
       "attack",
       "highcost",
       "hpgain",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -30.0,
+      -40.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Exhume",
-    "baseScore": 95,
-    "tagsProvided": [
+    "cardName":"Exhume",
+    "baseScore":92.0,
+    "tagsProvided":[
       "skill",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "exhaust"
     ],
-    "actModifer": [
-      0,
-      -25,
-      -40,
-      -40
+    "actModifer":[
+      -15.0,
+      -25.0,
+      -40.0,
+      -40.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "exhaust",
-        "value": 0.08
+        "tagName":"exhaust",
+        "value":0.08
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Havoc",
-    "baseScore": 70,
-    "tagsProvided": [
+    "cardName":"Havoc",
+    "baseScore":68.0,
+    "tagsProvided":[
       "skill",
       "draw",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "highcost"
     ],
-    "actModifer": [
-      0,
-      -5,
-      -20,
-      -30
+    "actModifer":[
+      0.0,
+      -5.0,
+      -20.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "highcost",
-        "value": 0.05
+        "tagName":"highcost",
+        "value":0.05
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Sentinel",
-    "baseScore": 65,
-    "tagsProvided": [
+    "cardName":"Sentinel",
+    "baseScore":62.0,
+    "tagsProvided":[
       "skill",
       "block",
       "energy"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity"
     ],
-    "actModifer": [
-      0,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -20.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Burning Pact",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Burning Pact",
+    "baseScore":82.0,
+    "tagsProvided":[
       "skill",
       "exhaust",
       "draw"
     ],
-    "tagsAffected": [],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "tagsAffected":[
+
     ],
-    "synergyModifer": [],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Seeing Red",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Seeing Red",
+    "baseScore":75.0,
+    "tagsProvided":[
       "skill",
       "exhaust",
       "energy"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "highcost",
       "draw"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -15
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -15.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "highcost",
-        "value": 0
+        "tagName":"highcost",
+        "value":0.0
       },
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Bludgeon",
-    "baseScore": 95,
-    "tagsProvided": [
+    "cardName":"Bludgeon",
+    "baseScore":90.0,
+    "tagsProvided":[
       "attack",
       "highcost"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":25.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Feel No Pain",
-    "baseScore": 95,
-    "tagsProvided": [
+    "cardName":"Feel No Pain",
+    "baseScore":95.0,
+    "tagsProvided":[
       "power",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "exhaust",
       "dexterity"
     ],
-    "actModifer": [
-      0,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      0.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "exhaust",
-        "value": 0.06
+        "tagName":"exhaust",
+        "value":0.06
       },
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Uppercut",
-    "baseScore": 85,
-    "tagsProvided": [
+    "cardName":"Uppercut",
+    "baseScore":87.0,
+    "tagsProvided":[
       "attack",
       "highcost",
       "weak",
       "vulnerability"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -25
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -25.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Shockwave",
-    "baseScore": 100,
-    "tagsProvided": [
+    "cardName":"Shockwave",
+    "baseScore":95.0,
+    "tagsProvided":[
       "skill",
       "highcost",
       "weak",
       "vulnerability",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "energy"
     ],
-    "actModifer": [
-      0,
-      0,
-      -15,
-      -20
+    "actModifer":[
+      0.0,
+      0.0,
+      -15.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":20.0,
+    "oneOfModifier":0.5
   },
   {
-    "cardName": "Second Wind",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Second Wind",
+    "baseScore":85.0,
+    "tagsProvided":[
       "skill",
       "exhaust",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity"
     ],
-    "actModifer": [
-      0,
-      -5,
-      -20,
-      -30
+    "actModifer":[
+      0.0,
+      -5.0,
+      -20.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":20.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Demon Form",
-    "baseScore": 120,
-    "tagsProvided": [
+    "cardName":"Demon Form",
+    "baseScore":85.0,
+    "tagsProvided":[
       "power",
       "highcost",
       "strength"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "energy",
       "attack"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      0.0,
+      -20.0,
+      -30.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "attack",
-        "value": 0.06
+        "tagName":"attack",
+        "value":0.06
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Ghostly Armor",
-    "baseScore": 90,
-    "tagsProvided": [
+    "cardName":"Ghostly Armor",
+    "baseScore":90.0,
+    "tagsProvided":[
       "skill",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -20
+    "actModifer":[
+      0.0,
+      -10.0,
+      -25.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Battle Trance",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Battle Trance",
+    "baseScore":95.0,
+    "tagsProvided":[
       "skill",
       "lowcost",
       "draw"
     ],
-    "tagsAffected": [],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -10
+    "tagsAffected":[
+
     ],
-    "synergyModifer": [],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -10.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":25.0,
+    "oneOfModifier":0.5
   },
   {
-    "cardName": "Flame Barrier",
-    "baseScore": 90,
-    "tagsProvided": [
+    "cardName":"Flame Barrier",
+    "baseScore":92.0,
+    "tagsProvided":[
       "skill",
       "highcost",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity",
       "energy"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -20
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Spot Weakness",
-    "baseScore": 85,
-    "tagsProvided": [
+    "cardName":"Spot Weakness",
+    "baseScore":92.0,
+    "tagsProvided":[
       "skill",
       "strength"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attack"
     ],
-    "actModifer": [
-      0,
-      0,
-      -15,
-      -30
+    "actModifer":[
+      0.0,
+      0.0,
+      -15.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attack",
-        "value": 0.06
+        "tagName":"attack",
+        "value":0.06
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Armaments",
-    "baseScore": 110,
-    "tagsProvided": [
+    "cardName":"Armaments",
+    "baseScore":80.0,
+    "tagsProvided":[
       "skill",
       "block",
       "upgrade"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity",
       "upgrade"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -20
+    "actModifer":[
+      0.0,
+      -20.0,
+      -35.0,
+      -50.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       },
       {
-        "tagName": "upgrade",
-        "value": 0
+        "tagName":"upgrade",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Offering",
-    "baseScore": 115,
-    "tagsProvided": [
+    "cardName":"Offering",
+    "baseScore":110.0,
+    "tagsProvided":[
       "skill",
       "lowcost",
       "hploss",
@@ -557,1829 +565,3236 @@
       "energy",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "draw",
       "lowcost"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -20
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       },
       {
-        "tagName": "lowcost",
-        "value": 0
+        "tagName":"lowcost",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Shrug It Off",
-    "baseScore": 85,
-    "tagsProvided": [
+    "cardName":"Shrug It Off",
+    "baseScore":87.0,
+    "tagsProvided":[
       "skill",
       "block",
       "draw"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity",
       "draw"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -25
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -25.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       },
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Pummel",
-    "baseScore": 100,
-    "tagsProvided": [
+    "cardName":"Pummel",
+    "baseScore":85.0,
+    "tagsProvided":[
       "attack",
       "multihit",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      0,
-      -5,
-      -15
+    "actModifer":[
+      0.0,
+      0.0,
+      -5.0,
+      -15.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Carnage",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Carnage",
+    "baseScore":75.0,
+    "tagsProvided":[
       "attack",
       "highcost"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Dual Wield",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Dual Wield",
+    "baseScore":72.0,
+    "tagsProvided":[
       "skill",
       "cardduplication"
     ],
-    "tagsAffected": [],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "tagsAffected":[
+
     ],
-    "synergyModifer": [],
-    "oneOfRule": 20,
-    "oneOfModifier": 0.3
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":20.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Infernal Blade",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Infernal Blade",
+    "baseScore":80.0,
+    "tagsProvided":[
       "skill",
       "cardgeneration",
       "exhaust"
     ],
-    "tagsAffected": [],
-    "actModifer": [
-      0,
-      -10,
-      -20,
-      -40
+    "tagsAffected":[
+
     ],
-    "synergyModifer": [],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "actModifer":[
+      0.0,
+      -10.0,
+      -20.0,
+      -40.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Barricade",
-    "baseScore": 120,
-    "tagsProvided": [
+    "cardName":"Barricade",
+    "baseScore":100.0,
+    "tagsProvided":[
       "power"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "block",
       "energy"
     ],
-    "actModifer": [
-      0,
-      -20,
-      -40,
-      -60
+    "actModifer":[
+      -20.0,
+      -20.0,
+      -40.0,
+      -60.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "block",
-        "value": 0.08
+        "tagName":"block",
+        "value":0.08
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       }
     ],
-    "oneOfRule": 25,
-    "oneOfModifier": 0.3
+    "oneOfRule":25.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Power Through",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Power Through",
+    "baseScore":85.0,
+    "tagsProvided":[
       "skill",
       "block",
       "status"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -20,
-      -30
+    "actModifer":[
+      0.0,
+      -10.0,
+      -20.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Intimidate",
-    "baseScore": 70,
-    "tagsProvided": [
+    "cardName":"Intimidate",
+    "baseScore":70.0,
+    "tagsProvided":[
       "skill",
       "lowcost",
       "exhaust",
       "weak"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "draw"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -20
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Disarm",
-    "baseScore": 85,
-    "tagsProvided": [
+    "cardName":"Disarm",
+    "baseScore":85.0,
+    "tagsProvided":[
       "skill",
       "mitigation",
       "exhaust"
     ],
-    "tagsAffected": [],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "tagsAffected":[
+
     ],
-    "synergyModifer": [],
-    "oneOfRule": 20,
-    "oneOfModifier": 0.3
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":20.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Clothesline",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Clothesline",
+    "baseScore":80.0,
+    "tagsProvided":[
       "attack",
       "highcost",
       "weak"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Perfected Strike",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Perfected Strike",
+    "baseScore":80.0,
+    "tagsProvided":[
       "attack",
       "strike"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "strike",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -25,
-      -40
+    "actModifer":[
+      0.0,
+      -10.0,
+      -25.0,
+      -40.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "strike",
-        "value": 0.11
+        "tagName":"strike",
+        "value":0.11
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Fiend Fire",
-    "baseScore": 110,
-    "tagsProvided": [
+    "cardName":"Fiend Fire",
+    "baseScore":110.0,
+    "tagsProvided":[
       "attack",
       "highcost",
       "exhaust",
       "multihit"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      0.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Feed",
-    "baseScore": 110,
-    "tagsProvided": [
+    "cardName":"Feed",
+    "baseScore":110.0,
+    "tagsProvided":[
       "attack",
       "exhaust",
       "hpgain"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      0,
-      0,
-      0
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Bloodletting",
-    "baseScore": 70,
-    "tagsProvided": [
+    "cardName":"Bloodletting",
+    "baseScore":75.0,
+    "tagsProvided":[
       "skill",
       "lowcost",
       "hploss",
       "energy"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "hpgain",
       "draw"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "hpgain",
-        "value": 0
+        "tagName":"hpgain",
+        "value":0.0
       },
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Dark Embrace",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Dark Embrace",
+    "baseScore":80.0,
+    "tagsProvided":[
       "power",
       "draw"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "exhaust"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "exhaust",
-        "value": 0.08
+        "tagName":"exhaust",
+        "value":0.08
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Juggernaut",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Juggernaut",
+    "baseScore":80.0,
+    "tagsProvided":[
       "power",
       "highcost"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "block",
       "energy"
     ],
-    "actModifer": [
-      0,
-      -5,
-      -10,
-      -20
+    "actModifer":[
+      0.0,
+      -5.0,
+      -10.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "block",
-        "value": 0
+        "tagName":"block",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Impervious",
-    "baseScore": 105,
-    "tagsProvided": [
+    "cardName":"Impervious",
+    "baseScore":105.0,
+    "tagsProvided":[
       "skill",
       "highcost",
       "block",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity",
       "energy"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -15
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -15.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Rampage",
-    "baseScore": 70,
-    "tagsProvided": [
+    "cardName":"Rampage",
+    "baseScore":75.0,
+    "tagsProvided":[
       "attack"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -20
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Metallicize",
-    "baseScore": 85,
-    "tagsProvided": [
+    "cardName":"Metallicize",
+    "baseScore":85.0,
+    "tagsProvided":[
       "power",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -20
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Pommel Strike",
-    "baseScore": 85,
-    "tagsProvided": [
+    "cardName":"Pommel Strike",
+    "baseScore":90.0,
+    "tagsProvided":[
       "attack",
       "draw",
       "strike"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "draw",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      0,
-      -20,
-      -25
+    "actModifer":[
+      0.0,
+      0.0,
+      -20.0,
+      -25.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Warcry",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Warcry",
+    "baseScore":65.0,
+    "tagsProvided":[
       "skill",
       "lowcost",
       "draw"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "draw"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -20,
-      -30
+    "actModifer":[
+      0.0,
+      -10.0,
+      -20.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Body Slam",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Body Slam",
+    "baseScore":85.0,
+    "tagsProvided":[
       "attack",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "block",
       "dexterity",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -50,
-      -50
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -50.0,
+      -50.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "block",
-        "value": 0.1
+        "tagName":"block",
+        "value":0.1
       },
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Heavy Blade",
-    "baseScore": 100,
-    "tagsProvided": [
+    "cardName":"Heavy Blade",
+    "baseScore":75.0,
+    "tagsProvided":[
       "attack",
       "highcost"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -40,
-      -50
+    "actModifer":[
+      -10.0,
+      -25.0,
+      -40.0,
+      -50.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0.08
+        "tagName":"strength",
+        "value":0.08
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Dropkick",
-    "baseScore": 85,
-    "tagsProvided": [
+    "cardName":"Dropkick",
+    "baseScore":95.0,
+    "tagsProvided":[
       "attack",
       "draw"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -20.0,
+      -30.0,
+      -40.0,
+      -40.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0.12
+        "tagName":"vulnerability",
+        "value":0.12
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "True Grit",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"True Grit",
+    "baseScore":75.0,
+    "tagsProvided":[
       "skill",
       "block",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -25
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -25.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Immolate",
-    "baseScore": 130,
-    "tagsProvided": [
+    "cardName":"Immolate",
+    "baseScore":130.0,
+    "tagsProvided":[
       "attack",
       "highcost",
       "status"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      0,
-      -15,
-      -20
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -15.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":20.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Blood For Blood",
-    "baseScore": 70,
-    "tagsProvided": [
+    "cardName":"Blood For Blood",
+    "baseScore":75.0,
+    "tagsProvided":[
       "attack"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -30.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Evolve",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Evolve",
+    "baseScore":92.0,
+    "tagsProvided":[
       "power",
       "draw"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "status"
     ],
-    "actModifer": [
-      0,
-      -25,
-      -40,
-      -40
+    "actModifer":[
+      -5.0,
+      -15.0,
+      -20.0,
+      0.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "status",
-        "value": 0.08
+        "tagName":"status",
+        "value":0.08
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":30.0,
+    "oneOfModifier":0.5
   },
   {
-    "cardName": "Whirlwind",
-    "baseScore": 100,
-    "tagsProvided": [
+    "cardName":"Whirlwind",
+    "baseScore":97.0,
+    "tagsProvided":[
       "attack",
       "energyscaling"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energyscaling",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -20
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energyscaling",
-        "value": 0
+        "tagName":"energyscaling",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":20.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Limit Break",
-    "baseScore": 110,
-    "tagsProvided": [
+    "cardName":"Limit Break",
+    "baseScore":110.0,
+    "tagsProvided":[
       "skill",
       "strength",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attack",
       "strength"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -25
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -25.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attack",
-        "value": 0.06
+        "tagName":"attack",
+        "value":0.06
       },
       {
-        "tagName": "strength",
-        "value": 0.08
+        "tagName":"strength",
+        "value":0.08
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Sword Boomerang",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Sword Boomerang",
+    "baseScore":92.0,
+    "tagsProvided":[
       "attack",
       "multihit"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -5,
-      -20,
-      -30
+    "actModifer":[
+      -5.0,
+      -5.0,
+      -15.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Reckless Charge",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Reckless Charge",
+    "baseScore":80.0,
+    "tagsProvided":[
       "attack",
       "lowcost",
       "status"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "draw",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -20,
-      -30,
-      -40
+    "actModifer":[
+      0.0,
+      -20.0,
+      -30.0,
+      -40.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Sever Soul",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Sever Soul",
+    "baseScore":67.0,
+    "tagsProvided":[
       "attack",
       "highcost",
       "exhaust"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -30
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Inflame",
-    "baseScore": 105,
-    "tagsProvided": [
+    "cardName":"Inflame",
+    "baseScore":92.0,
+    "tagsProvided":[
       "power",
       "strength"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attack"
     ],
-    "actModifer": [
-      0,
-      0,
-      -20,
-      -30
+    "actModifer":[
+      0.0,
+      0.0,
+      -20.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attack",
-        "value": 0.06
+        "tagName":"attack",
+        "value":0.06
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Double Tap",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Double Tap",
+    "baseScore":80.0,
+    "tagsProvided":[
       "skill",
       "attackbuff"
     ],
-    "tagsAffected": [],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "tagsAffected":[
+
     ],
-    "synergyModifer": [],
-    "oneOfRule": 20,
-    "oneOfModifier": 0.3
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":20.0,
+    "oneOfModifier":0.3
   },
   {
-    "cardName": "Headbutt",
-    "baseScore": 60,
-    "tagsProvided": [
+    "cardName":"Headbutt",
+    "baseScore":80.0,
+    "tagsProvided":[
       "attack"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      0,
-      -10,
-      -30
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Iron Wave",
-    "baseScore": 65,
-    "tagsProvided": [
+    "cardName":"Iron Wave",
+    "baseScore":65.0,
+    "tagsProvided":[
       "attack",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "dexterity",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -20,
-      -30
+    "actModifer":[
+      0.0,
+      -25.0,
+      -30.0,
+      -35.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Twin Strike",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Twin Strike",
+    "baseScore":75.0,
+    "tagsProvided":[
       "attack",
       "strike",
       "multihit"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -20,
-      -35
+    "actModifer":[
+      0.0,
+      -15.0,
+      -25.0,
+      -25.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Rage",
-    "baseScore": 70,
-    "tagsProvided": [
+    "cardName":"Rage",
+    "baseScore":70.0,
+    "tagsProvided":[
       "skill",
       "lowcost",
       "block",
       "attackbuff"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity",
       "draw"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -20
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       },
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Fire Breathing",
-    "baseScore": 90,
-    "tagsProvided": [
+    "cardName":"Fire Breathing",
+    "baseScore":95.0,
+    "tagsProvided":[
       "power"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "status",
       "curse"
     ],
-    "actModifer": [
-      -10,
-      -30,
-      -40,
-      -50
+    "actModifer":[
+      0.0,
+      -10.0,
+      -20.0,
+      0.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "status",
-        "value": 0.06
+        "tagName":"status",
+        "value":0.06
       },
       {
-        "tagName": "curse",
-        "value": 0.06
+        "tagName":"curse",
+        "value":0.06
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Brutality",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Brutality",
+    "baseScore":75.0,
+    "tagsProvided":[
       "power",
       "lowcost",
       "draw",
       "hploss"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "hpgain",
       "lowcost"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "hpgain",
-        "value": 0
+        "tagName":"hpgain",
+        "value":0.0
       },
       {
-        "tagName": "lowcost",
-        "value": 0
+        "tagName":"lowcost",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Anger",
-    "baseScore": 90,
-    "tagsProvided": [
+    "cardName":"Anger",
+    "baseScore":87.0,
+    "tagsProvided":[
       "attack",
       "lowcost",
       "cardgeneration"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "draw",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      0,
-      -20,
-      -40
+    "actModifer":[
+      0.0,
+      -10.0,
+      -25.0,
+      -40.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Searing Blow",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Searing Blow",
+    "baseScore":70.0,
+    "tagsProvided":[
       "attack",
       "highcost"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "upgrade",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -20,
-      -20,
-      -40
+    "actModifer":[
+      0.0,
+      -40.0,
+      -70.0,
+      -70.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "upgrade",
-        "value": 0.2
+        "tagName":"upgrade",
+        "value":0.2
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Rupture",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Rupture",
+    "baseScore":70.0,
+    "tagsProvided":[
       "power",
       "strength"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "hploss"
     ],
-    "actModifer": [
-      0,
-      -20,
-      -20,
-      -30
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -30.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "hploss",
-        "value": 0.08
+        "tagName":"hploss",
+        "value":0.08
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Thunderclap",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Thunderclap",
+    "baseScore":72.0,
+    "tagsProvided":[
       "attack",
       "vulnerability"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -15,
-      -20
+    "actModifer":[
+      0.0,
+      -20.0,
+      -30.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Wild Strike",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Wild Strike",
+    "baseScore":80.0,
+    "tagsProvided":[
       "attack",
       "status"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -25,
-      -40
+    "actModifer":[
+      0.0,
+      -10.0,
+      -25.0,
+      -40.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Combust",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Combust",
+    "baseScore":75.0,
+    "tagsProvided":[
       "power",
       "hploss"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "hpgain"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -20.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "hpgain",
-        "value": 0
+        "tagName":"hpgain",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Hemokinesis",
-    "baseScore": 110,
-    "tagsProvided": [
+    "cardName":"Hemokinesis",
+    "baseScore":105.0,
+    "tagsProvided":[
       "attack",
       "hploss"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "hpgain",
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      0,
-      -15,
-      -30,
-      -50
+    "actModifer":[
+      0.0,
+      -15.0,
+      -30.0,
+      -50.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "hpgain",
-        "value": 0
+        "tagName":"hpgain",
+        "value":0.0
       },
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Flex",
-    "baseScore": 80,
-    "tagsProvided": [
+    "cardName":"Flex",
+    "baseScore":65.0,
+    "tagsProvided":[
       "strength",
       "lowcost",
       "skill"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "draw"
     ],
-    "actModifer": [
-      0,
-      0,
-      -20,
-      -40
+    "actModifer":[
+      0.0,
+      -10.0,
+      -20.0,
+      -40.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Cleave",
-    "baseScore": 75,
-    "tagsProvided": [
+    "cardName":"Cleave",
+    "baseScore":82.0,
+    "tagsProvided":[
       "attack"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      0.0,
+      -20.0,
+      -30.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Berserk",
-    "baseScore": 70,
-    "tagsProvided": [
+    "cardName":"Berserk",
+    "baseScore":78.0,
+    "tagsProvided":[
       "power",
       "lowcost",
       "energy"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "draw"
     ],
-    "actModifer": [
-      0,
-      -10,
-      -10,
-      -30
+    "actModifer":[
+      0.0,
+      -10.0,
+      -10.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Clash",
-    "baseScore": 30,
-    "tagsProvided": [
+    "cardName":"Clash",
+    "baseScore":30.0,
+    "tagsProvided":[
       "lowcost",
       "attack"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "draw",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -20,
-      -20
+    "actModifer":[
+      -10.0,
+      -30.0,
+      -30.0,
+      -30.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "draw",
-        "value": 0
+        "tagName":"draw",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Strike",
-    "baseScore": 60,
-    "tagsProvided": [
+    "cardName":"Strike",
+    "baseScore":50.0,
+    "tagsProvided":[
       "attack",
       "strike"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -20,
-      -40,
-      -60,
-      -80
+    "actModifer":[
+      -20.0,
+      -40.0,
+      -60.0,
+      -80.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Defend",
-    "baseScore": 60,
-    "tagsProvided": [
+    "cardName":"Defend",
+    "baseScore":60.0,
+    "tagsProvided":[
       "skill",
       "block"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "dexterity"
     ],
-    "actModifer": [
-      -20,
-      -40,
-      -60,
-      -80
+    "actModifer":[
+      -20.0,
+      -40.0,
+      -60.0,
+      -80.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "dexterity",
-        "value": 0
+        "tagName":"dexterity",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   },
   {
-    "cardName": "Bash",
-    "baseScore": 90,
-    "tagsProvided": [
+    "cardName":"Bash",
+    "baseScore":67.0,
+    "tagsProvided":[
       "attack",
       "vulnerability",
       "highcost"
     ],
-    "tagsAffected": [
+    "tagsAffected":[
       "attackbuff",
       "energy",
       "strength",
       "vulnerability"
     ],
-    "actModifer": [
-      -10,
-      -20,
-      -50,
-      -50
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -50.0,
+      -50.0
     ],
-    "synergyModifer": [
+    "synergyModifer":[
       {
-        "tagName": "attackbuff",
-        "value": 0
+        "tagName":"attackbuff",
+        "value":0.0
       },
       {
-        "tagName": "energy",
-        "value": 0
+        "tagName":"energy",
+        "value":0.0
       },
       {
-        "tagName": "strength",
-        "value": 0
+        "tagName":"strength",
+        "value":0.0
       },
       {
-        "tagName": "vulnerability",
-        "value": 0
+        "tagName":"vulnerability",
+        "value":0.0
       }
     ],
-    "oneOfRule": 0,
-    "oneOfModifier": 0
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Ascender\u0027s Bane",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Clumsy",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Curse of the Bell",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Decay",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Doubt",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Injury",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Necronomicurse",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Normality",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Pain",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Parasite",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Pride",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Regret",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Shame",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Writhe",
+    "baseScore":0.0,
+    "tagsProvided":[
+      "curse"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Bandage Up",
+    "baseScore":80.0,
+    "tagsProvided":[
+      "exhaust",
+      "hpgain",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      0.0,
+      -10.0,
+      -15.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Blind",
+    "baseScore":70.0,
+    "tagsProvided":[
+      "lowcost",
+      "skill",
+      "weak"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      -10.0,
+      -20.0,
+      -20.0,
+      -25.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Dark Shackles",
+    "baseScore":70.0,
+    "tagsProvided":[
+      "exhaust",
+      "lowcost",
+      "mitigation",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Deep Breath",
+    "baseScore":65.0,
+    "tagsProvided":[
+      "draw",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Discovery",
+    "baseScore":70.0,
+    "tagsProvided":[
+      "cardgeneration",
+      "exhaust",
+      "skill"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Dramatic Entrance",
+    "baseScore":75.0,
+    "tagsProvided":[
+      "attack",
+      "exhaust",
+      "lowcost"
+    ],
+    "tagsAffected":[
+      "draw",
+      "strength",
+      "attackbuff",
+      "vulnerability"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      },
+      {
+        "tagName":"strength",
+        "value":0.0
+      },
+      {
+        "tagName":"attackbuff",
+        "value":0.0
+      },
+      {
+        "tagName":"vulnerability",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Enlightenment",
+    "baseScore":65.0,
+    "tagsProvided":[
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      -5.0,
+      -15.0,
+      -30.0,
+      -30.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Finesse",
+    "baseScore":72.0,
+    "tagsProvided":[
+      "block",
+      "draw",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw",
+      "dexterity"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      },
+      {
+        "tagName":"dexterity",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Flash of Steel",
+    "baseScore":78.0,
+    "tagsProvided":[
+      "attack",
+      "draw",
+      "lowcost"
+    ],
+    "tagsAffected":[
+      "draw",
+      "strength",
+      "attackbuff",
+      "vulnerability"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      },
+      {
+        "tagName":"strength",
+        "value":0.0
+      },
+      {
+        "tagName":"attackbuff",
+        "value":0.0
+      },
+      {
+        "tagName":"vulnerability",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Forethought",
+    "baseScore":65.0,
+    "tagsProvided":[
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Good Instincts",
+    "baseScore":65.0,
+    "tagsProvided":[
+      "block",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw",
+      "dexterity"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      },
+      {
+        "tagName":"dexterity",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Impatience",
+    "baseScore":55.0,
+    "tagsProvided":[
+      "draw",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Jack of All Trades",
+    "baseScore":65.0,
+    "tagsProvided":[
+      "cardgeneration",
+      "exhaust",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Madness",
+    "baseScore":85.0,
+    "tagsProvided":[
+      "exhaust",
+      "skill"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -10.0,
+      -15.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Mind Blast",
+    "baseScore":65.0,
+    "tagsProvided":[
+      "attack"
+    ],
+    "tagsAffected":[
+      "strength",
+      "attackbuff",
+      "vulnerability"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"strength",
+        "value":0.0
+      },
+      {
+        "tagName":"attackbuff",
+        "value":0.0
+      },
+      {
+        "tagName":"vulnerability",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Panacea",
+    "baseScore":75.0,
+    "tagsProvided":[
+      "exhaust",
+      "lowcost",
+      "mitigation",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -15.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Panic Button",
+    "baseScore":65.0,
+    "tagsProvided":[
+      "block",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw",
+      "dexterity"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      },
+      {
+        "tagName":"dexterity",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Purity",
+    "baseScore":45.0,
+    "tagsProvided":[
+      "exhaust",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Swift Strike",
+    "baseScore":85.0,
+    "tagsProvided":[
+      "attack",
+      "lowcost"
+    ],
+    "tagsAffected":[
+      "draw",
+      "strength",
+      "attackbuff",
+      "vulnerability"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      },
+      {
+        "tagName":"strength",
+        "value":0.0
+      },
+      {
+        "tagName":"attackbuff",
+        "value":0.0
+      },
+      {
+        "tagName":"vulnerability",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Trip",
+    "baseScore":80.0,
+    "tagsProvided":[
+      "lowcost",
+      "skill",
+      "vulnerability"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Apotheosis",
+    "baseScore":95.0,
+    "tagsProvided":[
+      "exhaust",
+      "skill",
+      "upgrade"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Chrysalis",
+    "baseScore":75.0,
+    "tagsProvided":[
+      "cardgeneration",
+      "exhaust",
+      "highcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "energy"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"energy",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Hand of Greed",
+    "baseScore":105.0,
+    "tagsProvided":[
+      "attack",
+      "highcost"
+    ],
+    "tagsAffected":[
+      "energy",
+      "strength",
+      "attackbuff",
+      "vulnerability"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"energy",
+        "value":0.0
+      },
+      {
+        "tagName":"strength",
+        "value":0.0
+      },
+      {
+        "tagName":"attackbuff",
+        "value":0.0
+      },
+      {
+        "tagName":"vulnerability",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Magnetism",
+    "baseScore":75.0,
+    "tagsProvided":[
+      "power",
+      "power"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Master Of Strategy",
+    "baseScore":80.0,
+    "tagsProvided":[
+      "draw",
+      "exhaust",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Mayhem",
+    "baseScore":80.0,
+    "tagsProvided":[
+      "power",
+      "power"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Metamorphosis",
+    "baseScore":75.0,
+    "tagsProvided":[
+      "cardgeneration",
+      "exhaust",
+      "highcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "energy"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"energy",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Panache",
+    "baseScore":85.0,
+    "tagsProvided":[
+      "lowcost",
+      "power",
+      "power"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Sadistic Nature",
+    "baseScore":75.0,
+    "tagsProvided":[
+      "lowcost",
+      "power",
+      "power"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Secret Technique",
+    "baseScore":75.0,
+    "tagsProvided":[
+      "draw",
+      "exhaust",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Secret Weapon",
+    "baseScore":75.0,
+    "tagsProvided":[
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"The Bomb",
+    "baseScore":70.0,
+    "tagsProvided":[
+      "highcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "energy"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"energy",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Thinking Ahead",
+    "baseScore":70.0,
+    "tagsProvided":[
+      "draw",
+      "exhaust",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Transmutation",
+    "baseScore":80.0,
+    "tagsProvided":[
+      "cardgeneration",
+      "exhaust",
+      "skill"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Violence",
+    "baseScore":70.0,
+    "tagsProvided":[
+      "cardgeneration",
+      "exhaust",
+      "lowcost",
+      "skill"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Apparition",
+    "baseScore":110.0,
+    "tagsProvided":[
+      "exhaust",
+      "mitigation",
+      "skill"
+    ],
+    "tagsAffected":[
+
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Bite",
+    "baseScore":80.0,
+    "tagsProvided":[
+      "attack",
+      "hpgain"
+    ],
+    "tagsAffected":[
+      "strength",
+      "attackbuff",
+      "vulnerability"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"strength",
+        "value":0.0
+      },
+      {
+        "tagName":"attackbuff",
+        "value":0.0
+      },
+      {
+        "tagName":"vulnerability",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"J.A.X.",
+    "baseScore":80.0,
+    "tagsProvided":[
+      "hploss",
+      "lowcost",
+      "skill",
+      "strength"
+    ],
+    "tagsAffected":[
+      "draw"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"draw",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
+  },
+  {
+    "cardName":"Ritual Dagger",
+    "baseScore":90.0,
+    "tagsProvided":[
+      "attack",
+      "exhaust"
+    ],
+    "tagsAffected":[
+      "strength",
+      "attackbuff",
+      "vulnerability"
+    ],
+    "actModifer":[
+      0.0,
+      -10.0,
+      -15.0,
+      -20.0
+    ],
+    "synergyModifer":[
+      {
+        "tagName":"strength",
+        "value":0.0
+      },
+      {
+        "tagName":"attackbuff",
+        "value":0.0
+      },
+      {
+        "tagName":"vulnerability",
+        "value":0.0
+      }
+    ],
+    "oneOfRule":0.0,
+    "oneOfModifier":0.0
   }
 ]
