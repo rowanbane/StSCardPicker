@@ -16,23 +16,21 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.screens.CardRewardScreen;
+import com.megacrit.cardcrawl.shop.ShopScreen;
 import javassist.CannotCompileException;
 import javassist.CtBehavior;
 
 import java.util.*;
 
 @SpireInitializer
-public class TestMod implements PostExhaustSubscriber,
-        PostBattleSubscriber, PostDungeonInitializeSubscriber, PostInitializeSubscriber {
+public class TestMod implements PostInitializeSubscriber {
 
-    private int count;
-
-    private int totalCount;
 
     public static HashMap<String, OutputCardJson> cardJsonHashMap = new HashMap<>();
 
@@ -49,17 +47,9 @@ public class TestMod implements PostExhaustSubscriber,
     public static List<String> deckCards = new ArrayList<String>();
 
 
-    /**
-     * Method comment
-     */
-    private void resetCounts() {
-        totalCount = 0;
-        count = 0;
-    }
-
     public TestMod() {
         BaseMod.subscribe(this);
-        resetCounts();
+
     }
 
     public static void initialize() {
@@ -67,29 +57,6 @@ public class TestMod implements PostExhaustSubscriber,
         new TestMod();
     }
 
-    @Override
-    public void receivePostBattle(AbstractRoom abstractRoom) {
-        System.out.println(count + " cards were exhausted this battle, " + totalCount + " cards have been exhausted so far this act.");
-        count = 0;
-
-
-    }
-
-
-    @Override
-    public void receivePostDungeonInitialize() {
-
-
-        resetCounts();
-    }
-
-    @Override
-    public void receivePostExhaust(AbstractCard abstractCard) {
-        count++;
-        totalCount++;
-        System.out.println("Counts incremented");
-
-    }
 
     @Override
     public void receivePostInitialize() {
@@ -266,25 +233,85 @@ public class TestMod implements PostExhaustSubscriber,
             }
 
             actModifier = actModifier - amountToDeduct;
-            if (actModifier> 0){
+            if (actModifier > 0) {
                 actModifier = 0;
             }
         }
         cardScore = cardScore + actModifier;
 
         //Apply any tag bonuses
-        for (String tagName: card.getTagsAffected()
-             ) {
-            if (tagListAffecting.containsKey(tagName))
-            {
+        for (String tagName : card.getTagsAffected()
+        ) {
+            if (tagListAffecting.containsKey(tagName)) {
                 cardScore = cardScore + tagListAffecting.get(tagName);
             }
         }
 
 
+        //To add one of
 
 
         return cardScore;
+    }
+
+    @SpirePatch2(clz = ShopScreen.class, method = "init")
+    public static class InitCardHook {
+        @SpirePostfixPatch
+        public static void patch(ShopScreen __instance, ArrayList<AbstractCard> coloredCards, ArrayList<AbstractCard> colorlessCards) {
+
+            //Clears everything
+            cardRatingMap.clear();
+            tagListAffecting.clear();
+            tagsPresent.clear();
+            deckCards.clear();
+
+            //Populate deck and relic data
+            populatePlayerRunData();
+
+
+            for (AbstractCard card : coloredCards
+            ) {
+
+                cardRatingMap.put(card.name, calculateCardValue(formatCardName(card.name)));
+
+            }
+
+            for (AbstractCard card : colorlessCards
+            ) {
+
+//                cardRatingMap.put(card.name, calculateCardValue(formatCardName(card.name)));
+                cardRatingMap.put(card.name, 0f);
+
+            }
+
+
+        }
+    }
+
+    @SpirePatch2(clz = ShopScreen.class, method = "renderCardsAndPrices")
+    public static class RenderShopCardEvaluations {
+        @SpirePostfixPatch
+        public static void patch(ShopScreen __instance, SpriteBatch sb) {
+            for (AbstractCard c : __instance.coloredCards) {
+                renderGridSelectPrediction(sb, c);
+            }
+            for (AbstractCard c : __instance.colorlessCards) {
+                renderGridSelectPrediction(sb, c);
+            }
+        }
+
+        private static void renderGridSelectPrediction(SpriteBatch sb, AbstractCard card) {
+
+                String cardRating =  cardRatingMap.get(card.name).toString();
+
+            sb.setColor(Color.WHITE);
+            FontHelper.renderSmartText(sb,
+                    FontHelper.cardDescFont_N,
+                    cardRating,
+                    card.hb.cX - FontHelper.getSmartWidth(FontHelper.cardDescFont_N, cardRating, Float.MAX_VALUE, FontHelper.cardDescFont_N.getSpaceWidth()) * 0.5f,
+                    card.hb.y + (12f * Settings.scale),
+                    Color.WHITE);
+        }
     }
 }
 
