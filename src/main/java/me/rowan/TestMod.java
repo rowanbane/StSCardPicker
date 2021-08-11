@@ -16,6 +16,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.FontHelper;
@@ -32,37 +33,43 @@ import java.util.*;
 public class TestMod implements PostInitializeSubscriber {
 
 
+    //A Hashmap that contains the card evaluation data
     public static HashMap<String, OutputCardJson> cardJsonHashMap = new HashMap<>();
 
+    //A Hashmap that contains the relic evaluation data
     public static HashMap<String, OutputRelicJson> relicJsonHashMap = new HashMap<>();
 
+    //A Hashmap that contains the tag evaluation data
     public static HashMap<String, OutputTagsJson> tagJsonHashMap = new HashMap<>();
 
+    //A Hashmap that contains the card ratings for every card on the screen
     public static HashMap<String, Float> cardRatingMap = new HashMap<>();
 
+    //A Hashmap that contains tag lists affecting each card in the deck
     public static HashMap<String, Float> tagListAffecting = new HashMap<>();
 
+    //A Hashmap that contains tag lists present each card in the deck
     public static HashMap<String, Float> tagsPresent = new HashMap<>();
 
+    //A list that a count of every card in the deck
     public static List<String> deckCards = new ArrayList<String>();
 
 
     public TestMod() {
         BaseMod.subscribe(this);
-
     }
 
     public static void initialize() {
-        System.out.println("MY MOD IS CALLED YAAAAA");
+        //Subscribes this mod
         new TestMod();
     }
 
 
+    //Deserializes the evaluation json into objects in code for easy searching and typing of attributes
     @Override
     public void receivePostInitialize() {
 
         String assetPath = "me.rowanResources/";
-
 
         //Deserialize our JSON to have as lists in the code to reference
         //Cards
@@ -104,11 +111,18 @@ public class TestMod implements PostInitializeSubscriber {
 
     }
 
+    //A patch to clear any rating data then generate new ratings
     @SpirePatch2(clz = CardRewardScreen.class, method = "open")
     public static class GenerateRatings {
 
         @SpirePostfixPatch
         public static void generateCardRewardRatings(ArrayList<AbstractCard> cards) {
+
+            //If in combat then skip
+            if (CardCrawlGame.isInARun() && AbstractDungeon.currMapNode != null && AbstractDungeon.getCurrRoom() != null && AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMBAT)
+            {
+                return;
+            }
 
 
             //Clears everything
@@ -120,24 +134,28 @@ public class TestMod implements PostInitializeSubscriber {
             //Populate deck and relic data
             populatePlayerRunData();
 
+            //Adds the cards rating to the map for each render cycle
             for (AbstractCard card : cards
             ) {
-
                 cardRatingMap.put(card.name, calculateCardValue(formatCardName(card.name)));
-
             }
-
         }
-
     }
 
 
+    //A patch to render card ratings on the reward screen
     @SpirePatch2(clz = CardRewardScreen.class, method = "renderCardReward")
     public static class RenderPrediction {
 
 
         @SpireInsertPatch(locator = Locator.class)
         public static void patch(CardRewardScreen __instance, SpriteBatch sb) {
+
+            //If in combat then skip
+            if (CardCrawlGame.isInARun() && AbstractDungeon.currMapNode != null && AbstractDungeon.getCurrRoom() != null && AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMBAT)
+            {
+                return;
+            }
 
             for (AbstractCard c : __instance.rewardGroup) {
                 FontHelper.renderSmartText(sb,
@@ -151,7 +169,7 @@ public class TestMod implements PostInitializeSubscriber {
     }
 
 
-    //Locator class to aid in finding the render point - From Slay AI
+    //Locator class to aid in finding the render point
     private static class Locator extends SpireInsertLocator {
         public int[] Locate(CtBehavior ctMethodToPatch) throws CannotCompileException, PatchingException {
             Matcher finalMatcher = new Matcher.MethodCallMatcher(AbstractCard.class, "render");
@@ -160,13 +178,17 @@ public class TestMod implements PostInitializeSubscriber {
     }
 
     public static String formatCardName(String cardName) {
+        //Removes the + from the card name to allow searching of the card
         return cardName.replace("+", "");
     }
 
     public static void populatePlayerRunData() {
+
+        //Goes through the deck to populate evaluation base
         for (AbstractCard card : AbstractDungeon.player.masterDeck.group
         ) {
 
+            //Continues if the card isn't contained
             if (!cardJsonHashMap.containsKey(card.name)) {
                 continue;
             }
@@ -174,6 +196,7 @@ public class TestMod implements PostInitializeSubscriber {
             //formats the name
             String formattedName = formatCardName(card.name);
 
+            //Obtains the deserialized JSON evaluation object to calculate the score
             OutputCardJson cardEval = cardJsonHashMap.get(formattedName);
 
             //adds the cards edited name to the deck list
@@ -212,9 +235,10 @@ public class TestMod implements PostInitializeSubscriber {
 
     public static float calculateCardValue(String cardName) {
 
+        //Prints out the card name to show it's been recognised
         System.out.println(cardName);
 
-
+        //Obtains the deserialized JSON evaluation object to calculate the score
         OutputCardJson card = cardJsonHashMap.get(cardName);
 
         //Obtain base value
@@ -237,8 +261,10 @@ public class TestMod implements PostInitializeSubscriber {
                 }
             }
 
-
+            //Calculate the actmodifer after synergy modifers
             actModifier = actModifier - amountToDeduct;
+
+            //If the act modifier is positive it will set to zero
             if (actModifier > 0) {
                 actModifier = 0;
             }
@@ -255,12 +281,17 @@ public class TestMod implements PostInitializeSubscriber {
         }
 
 
-        //To add one of
-
+        //Apply One of rule
+        if (deckCards.contains(cardName)) {
+            if (card.getOneOfRule() > AbstractDungeon.player.masterDeck.size()) {
+                cardScore = cardScore * (1 - card.getOneOfModifier());
+            }
+        }
 
         return cardScore;
     }
 
+    //A Patch to allow the evaluation of shop cards
     @SpirePatch2(clz = ShopScreen.class, method = "init")
     public static class InitCardHook {
         @SpirePostfixPatch
@@ -275,26 +306,22 @@ public class TestMod implements PostInitializeSubscriber {
             //Populate deck and relic data
             populatePlayerRunData();
 
-
+            //Populate the coloured card list for the shop
             for (AbstractCard card : coloredCards
             ) {
-
                 cardRatingMap.put(card.name, calculateCardValue(formatCardName(card.name)));
-
             }
-
+            //Populate the colourless card list for the shop
             for (AbstractCard card : colorlessCards
             ) {
-
                 cardRatingMap.put(card.name, calculateCardValue(formatCardName(card.name)));
-//                cardRatingMap.put(card.name, 0f);
-
             }
 
 
         }
     }
 
+    //A patch to render the evaluation of shop cards
     @SpirePatch2(clz = ShopScreen.class, method = "renderCardsAndPrices")
     public static class RenderShopCardEvaluations {
         @SpirePostfixPatch
@@ -307,9 +334,10 @@ public class TestMod implements PostInitializeSubscriber {
             }
         }
 
+        //Function for the rendering of shop cards
         private static void renderGridSelectPrediction(SpriteBatch sb, AbstractCard card) {
 
-                String cardRating = "score: " + cardRatingMap.get(card.name).toString();
+            String cardRating = "score: " + cardRatingMap.get(card.name).toString();
 
             sb.setColor(Color.WHITE);
             FontHelper.renderSmartText(sb,
